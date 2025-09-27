@@ -3,9 +3,9 @@
 ### This repo contains scripts and plots for this study 
 
 
-#### 📁 Directory Details
+### 📁 Directory Details
 
-### 💻 `/Scripts` - R scripts for the final analysis
+#### 💻 `/Scripts` - R scripts for the final analysis
 
       
 - 🪥 **`/data_cleaning`** - R scripts for data wrangling
@@ -26,10 +26,10 @@
     - **`/main_survival.R`** - Cox model for survival analysis (main analysis)
     - **`/halo_mdl.R`** - A logistf model trained on patients with/without halo signs using clinical values as predictors (best practices)
     - **`/multi_model.R`** - A logistf model trained on patients with/without nodules, halo signs, and GGO using clinical values as predictors (best practices)
-### 🖼️`/plots_300` - Plots and tables
+#### 🖼️`/plots_300` - Plots and tables
 
 
-#### 📦 packages used in the analysis :
+#### 📦 packages used :
 ```R
 packages <- c("survival","car","ggplot2", "rms","mice", "MissMech","pheatmap","pROC","caret", "logistf","ResourceSelection","survminer")
 ```
